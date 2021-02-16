@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF51E0525D7E529000BA081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF51E0425D7E529000BA081 /* AppDelegate.swift */; };
+		2CF51E0725D7E529000BA081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF51E0625D7E529000BA081 /* SceneDelegate.swift */; };
+		2CF51E0925D7E529000BA081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF51E0825D7E529000BA081 /* ViewController.swift */; };
+		2CF51E0C25D7E529000BA081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF51E0A25D7E529000BA081 /* Main.storyboard */; };
+		2CF51E0F25D7E529000BA081 /* CSGOAssist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CF51E0D25D7E529000BA081 /* CSGOAssist.xcdatamodeld */; };
+		2CF51E1125D7E52B000BA081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF51E1025D7E52B000BA081 /* Assets.xcassets */; };
+		2CF51E1425D7E52B000BA081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF51E1225D7E52B000BA081 /* LaunchScreen.storyboard */; };
+		2CF51E1D25D7E76B000BA081 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF51E1C25D7E76B000BA081 /* Networking.swift */; };
+		A564F8BBF60503BBA8D29384 /* Pods_CSGOAssist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B5A471C110DF3AE3A72778 /* Pods_CSGOAssist.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CF51E0125D7E529000BA081 /* CSGOAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSGOAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF51E0425D7E529000BA081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CF51E0625D7E529000BA081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CF51E0825D7E529000BA081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CF51E0B25D7E529000BA081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CF51E0E25D7E529000BA081 /* CSGOAssist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSGOAssist.xcdatamodel; sourceTree = "<group>"; };
+		2CF51E1025D7E52B000BA081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF51E1325D7E52B000BA081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF51E1525D7E52B000BA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF51E1C25D7E76B000BA081 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		76606A02BE4AAA5A2D558D04 /* Pods-CSGOAssist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOAssist.debug.xcconfig"; path = "Target Support Files/Pods-CSGOAssist/Pods-CSGOAssist.debug.xcconfig"; sourceTree = "<group>"; };
+		96B5A471C110DF3AE3A72778 /* Pods_CSGOAssist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSGOAssist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF148E55359E9965BC4BEAB2 /* Pods-CSGOAssist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOAssist.release.xcconfig"; path = "Target Support Files/Pods-CSGOAssist/Pods-CSGOAssist.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF51DFE25D7E528000BA081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A564F8BBF60503BBA8D29384 /* Pods_CSGOAssist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121827576A501662FEB5E81E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76606A02BE4AAA5A2D558D04 /* Pods-CSGOAssist.debug.xcconfig */,
+				DF148E55359E9965BC4BEAB2 /* Pods-CSGOAssist.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2CF51DF825D7E528000BA081 = {
+			isa = PBXGroup;
+			children = (
+				2CF51E0325D7E529000BA081 /* CSGOAssist */,
+				2CF51E0225D7E529000BA081 /* Products */,
+				121827576A501662FEB5E81E /* Pods */,
+				EE0F4DB69CE559388F5258E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF51E0225D7E529000BA081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF51E0125D7E529000BA081 /* CSGOAssist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF51E0325D7E529000BA081 /* CSGOAssist */ = {
+			isa = PBXGroup;
+			children = (
+				2CF51E0425D7E529000BA081 /* AppDelegate.swift */,
+				2CF51E0625D7E529000BA081 /* SceneDelegate.swift */,
+				2CF51E0825D7E529000BA081 /* ViewController.swift */,
+				2CF51E0A25D7E529000BA081 /* Main.storyboard */,
+				2CF51E1C25D7E76B000BA081 /* Networking.swift */,
+				2CF51E1025D7E52B000BA081 /* Assets.xcassets */,
+				2CF51E1225D7E52B000BA081 /* LaunchScreen.storyboard */,
+				2CF51E1525D7E52B000BA081 /* Info.plist */,
+				2CF51E0D25D7E529000BA081 /* CSGOAssist.xcdatamodeld */,
+			);
+			path = CSGOAssist;
+			sourceTree = "<group>";
+		};
+		EE0F4DB69CE559388F5258E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B5A471C110DF3AE3A72778 /* Pods_CSGOAssist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF51E0025D7E528000BA081 /* CSGOAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF51E1825D7E52B000BA081 /* Build configuration list for PBXNativeTarget "CSGOAssist" */;
+			buildPhases = (
+				7CD96EF3B61E3CF0C76F4775 /* [CP] Check Pods Manifest.lock */,
+				2CF51DFD25D7E528000BA081 /* Sources */,
+				2CF51DFE25D7E528000BA081 /* Frameworks */,
+				2CF51DFF25D7E528000BA081 /* Resources */,
+				C553AFF842B60C5417353A45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSGOAssist;
+			productName = CSGOAssist;
+			productReference = 2CF51E0125D7E529000BA081 /* CSGOAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF51DF925D7E528000BA081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2CF51E0025D7E528000BA081 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CF51DFC25D7E528000BA081 /* Build configuration list for PBXProject "CSGOAssist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF51DF825D7E528000BA081;
+			productRefGroup = 2CF51E0225D7E529000BA081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF51E0025D7E528000BA081 /* CSGOAssist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF51DFF25D7E528000BA081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF51E1425D7E52B000BA081 /* LaunchScreen.storyboard in Resources */,
+				2CF51E1125D7E52B000BA081 /* Assets.xcassets in Resources */,
+				2CF51E0C25D7E529000BA081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CD96EF3B61E3CF0C76F4775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSGOAssist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C553AFF842B60C5417353A45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOAssist/Pods-CSGOAssist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOAssist/Pods-CSGOAssist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSGOAssist/Pods-CSGOAssist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF51DFD25D7E528000BA081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF51E0925D7E529000BA081 /* ViewController.swift in Sources */,
+				2CF51E1D25D7E76B000BA081 /* Networking.swift in Sources */,
+				2CF51E0525D7E529000BA081 /* AppDelegate.swift in Sources */,
+				2CF51E0F25D7E529000BA081 /* CSGOAssist.xcdatamodeld in Sources */,
+				2CF51E0725D7E529000BA081 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CF51E0A25D7E529000BA081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF51E0B25D7E529000BA081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF51E1225D7E52B000BA081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF51E1325D7E52B000BA081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF51E1625D7E52B000BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CF51E1725D7E52B000BA081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF51E1925D7E52B000BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76606A02BE4AAA5A2D558D04 /* Pods-CSGOAssist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8GJSR9MXQ;
+				INFOPLIST_FILE = CSGOAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kazantsev.CSGOAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF51E1A25D7E52B000BA081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF148E55359E9965BC4BEAB2 /* Pods-CSGOAssist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8GJSR9MXQ;
+				INFOPLIST_FILE = CSGOAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kazantsev.CSGOAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF51DFC25D7E528000BA081 /* Build configuration list for PBXProject "CSGOAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF51E1625D7E52B000BA081 /* Debug */,
+				2CF51E1725D7E52B000BA081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF51E1825D7E52B000BA081 /* Build configuration list for PBXNativeTarget "CSGOAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF51E1925D7E52B000BA081 /* Debug */,
+				2CF51E1A25D7E52B000BA081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CF51E0D25D7E529000BA081 /* CSGOAssist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CF51E0E25D7E529000BA081 /* CSGOAssist.xcdatamodel */,
+			);
+			currentVersion = 2CF51E0E25D7E529000BA081 /* CSGOAssist.xcdatamodel */;
+			path = CSGOAssist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CF51DF925D7E528000BA081 /* Project object */;
+}

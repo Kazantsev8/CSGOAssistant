@@ -1,0 +1,6 @@
+framework module Pods_CSGOAssist {
+  umbrella header "Pods-CSGOAssist-umbrella.h"
+
+  export *
+  module * { export * }
+}
